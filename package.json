@@ -34,7 +34,7 @@
   },
   "repository": "https://github.com/ptb/eslint-config-ptb.git",
   "scripts": {
-    "js:lint": "npx prettier-eslint --write ."
+    "js:lint": "npx prettier-eslint --write **/*.js"
   },
-  "version": "2017.11.19"
+  "version": "2017.11.19.a"
 }
