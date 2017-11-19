@@ -8,7 +8,9 @@
     "eslint-plugin-fp": ">= 2.3",
     "eslint-plugin-import": ">= 2.8",
     "eslint-plugin-json": ">= 1.2",
+    "eslint-plugin-jsx-a11y": ">= 6.0",
     "eslint-plugin-promise": ">= 3.6",
+    "eslint-plugin-react": ">= 7.5",
     "eslint-plugin-standard": ">= 3",
     "prettier": ">= 1.8",
     "prettier-eslint-cli": ">= 4.4"
@@ -27,7 +29,9 @@
     "eslint-plugin-fp": ">= 2.3",
     "eslint-plugin-import": ">= 2.8",
     "eslint-plugin-json": ">= 1.2",
+    "eslint-plugin-jsx-a11y": ">= 6.0",
     "eslint-plugin-promise": ">= 3.6",
+    "eslint-plugin-react": ">= 7.5",
     "eslint-plugin-standard": ">= 3",
     "prettier": ">= 1.8",
     "prettier-eslint-cli": ">= 4.4"
@@ -36,5 +40,5 @@
   "scripts": {
     "js:lint": "npx prettier-eslint --write **/*.js"
   },
-  "version": "2017.11.20"
+  "version": "2017.11.21"
 }
