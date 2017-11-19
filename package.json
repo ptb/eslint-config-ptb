@@ -3,6 +3,7 @@
   "description": "Personal ESLint configuration",
   "devDependencies": {
     "babel-eslint": ">= 8",
+    "chokidar-cli": ">= 1.2",
     "eslint": ">= 4.11",
     "eslint-plugin-better": ">= 0.1.5",
     "eslint-plugin-fp": ">= 2.3",
@@ -24,6 +25,7 @@
   "name": "eslint-config-ptb",
   "peerDependencies": {
     "babel-eslint": ">= 8",
+    "chokidar-cli": ">= 1.2",
     "eslint": ">= 4.11",
     "eslint-plugin-better": ">= 0.1.5",
     "eslint-plugin-fp": ">= 2.3",
@@ -38,7 +40,7 @@
   },
   "repository": "https://github.com/ptb/eslint-config-ptb.git",
   "scripts": {
-    "js:lint": "npx prettier-eslint --write **/*.js"
+    "js:lint": "npx chokidar '**/*.js' --command 'prettier-eslint --write {path}' --silent"
   },
   "version": "2017.11.21"
 }
