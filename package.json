@@ -1,0 +1,40 @@
+{
+  "author": "Peter T Bosse II <ptb@ioutime.com> (http://ptb2.me/)",
+  "description": "Personal ESLint configuration",
+  "devDependencies": {
+    "babel-eslint": ">= 8",
+    "eslint": ">= 4.11",
+    "eslint-plugin-better": ">= 0.1.5",
+    "eslint-plugin-fp": ">= 2.3",
+    "eslint-plugin-import": ">= 2.8",
+    "eslint-plugin-json": ">= 1.2",
+    "eslint-plugin-promise": ">= 3.6",
+    "eslint-plugin-standard": ">= 3",
+    "prettier": ">= 1.8",
+    "prettier-eslint-cli": ">= 4.4"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "Apache-2.0",
+  "main": ".eslintrc.js",
+  "name": "eslint-config-ptb",
+  "peerDependencies": {
+    "babel-eslint": ">= 8",
+    "eslint": ">= 4.11",
+    "eslint-plugin-better": ">= 0.1.5",
+    "eslint-plugin-fp": ">= 2.3",
+    "eslint-plugin-import": ">= 2.8",
+    "eslint-plugin-json": ">= 1.2",
+    "eslint-plugin-promise": ">= 3.6",
+    "eslint-plugin-standard": ">= 3",
+    "prettier": ">= 1.8",
+    "prettier-eslint-cli": ">= 4.4"
+  },
+  "repository": "https://github.com/ptb/eslint-config-ptb.git",
+  "scripts": {
+    "js:lint": "npx prettier-eslint --write ."
+  },
+  "version": "2017.11.19"
+}
