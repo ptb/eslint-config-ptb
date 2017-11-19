@@ -36,5 +36,5 @@
   "scripts": {
     "js:lint": "npx prettier-eslint --write **/*.js"
   },
-  "version": "2017.11.19.a"
+  "version": "2017.11.20"
 }
