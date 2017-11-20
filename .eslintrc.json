@@ -17,7 +17,6 @@
     "import",
     "json",
     "jsx-a11y",
-    "prettier",
     "promise",
     "react",
     "standard"
