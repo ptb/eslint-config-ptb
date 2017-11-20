@@ -1,10 +1,7 @@
+#+begin_src json
 {
   "extends": [
-    "eslint:recommended",
-    "prettier",
-    "ptb",
-    "prettier/react",
-    "plugin:react/recommended"
+    "ptb"
   ],
   "rules": {
     "better/explicit-return": "off",
@@ -33,3 +30,4 @@
     "import/no-commonjs": "off"
   }
 }
+#+end_src
