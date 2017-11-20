@@ -1,5 +1,11 @@
 {
-  "extends": "ptb",
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "ptb",
+    "prettier/react",
+    "plugin:react/recommended"
+  ],
   "rules": {
     "better/explicit-return": "off",
     "better/no-ifs": "off",
