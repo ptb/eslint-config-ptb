@@ -86,13 +86,7 @@
         "properties": "always"
       }
     ],
-    "capitalized-comments": [
-      "error",
-      "always",
-      {
-        "ignoreConsecutiveComments": true
-      }
-    ],
+    "capitalized-comments": "off",
     "class-methods-use-this": "error",
     "comma-dangle": [
       "error",
@@ -321,10 +315,7 @@
         "max": 1
       }
     ],
-    "multiline-comment-style": [
-      "error",
-      "starred-block"
-    ],
+    "multiline-comment-style": "off",
     "multiline-ternary": "off",
     "new-cap": [
       "error",

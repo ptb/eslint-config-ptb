@@ -44,5 +44,5 @@
     "js:tidy": "prettier-eslint --write",
     "js:watch": "chokidar **/*.js -c 'npm run js:tidy -- {path}'"
   },
-  "version": "2017.11.21"
+  "version": "2018.3.22"
 }
