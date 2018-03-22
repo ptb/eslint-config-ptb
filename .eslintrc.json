@@ -732,7 +732,18 @@
       "error",
       "last"
     ],
-    "sort-imports": "error",
+    "sort-imports": [
+      "warn",
+      {
+        "ignoreCase": true,
+        "memberSyntaxSortOrder": [
+          "multiple",
+          "single",
+          "all",
+          "none"
+        ]
+      }
+    ],
     "sort-keys": [
       "error",
       "asc",
